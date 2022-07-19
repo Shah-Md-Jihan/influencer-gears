@@ -11,9 +11,6 @@ body {
     background-color: #F3F1FF;
 }
 
-main {
-    display: flex;
-}
 
 .container {
     margin: 0 auto;
@@ -57,4 +54,19 @@ main {
     color: #FFFFFF;
 }
 
-/* banner style end */
+/*=========================================================================================
+                                Brand logo scetion style starts 
+ ========================================================================================*/
+.brand-logo {
+    width: 990px;
+    margin-top: 136px;
+    background-color: #ffffff;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+}
