@@ -201,3 +201,47 @@ p {
     color: #ffffff;
     margin-left: 10px;
 }
+
+/*======================================================================================
+                            footer section styele start 
+ ======================================================================================*/
+.footer {
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+.footer-contents {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-info h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 3px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-info p {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.social-icon {
+    display: flex;
+    margin-top: 17px;
+}
+
+.social-icon i {
+    margin-right: 16px;
+    font-size: 20px;
+    color: #ffffff;
+}
