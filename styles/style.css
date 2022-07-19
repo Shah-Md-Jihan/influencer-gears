@@ -9,6 +9,7 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    color: #3A3A3A;
 }
 
 
@@ -16,6 +17,10 @@ body {
     margin: 0 auto;
 }
 
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
 
 
 /*========================================================================================
@@ -69,4 +74,130 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 20px 10px;
+}
+
+/*=============================================================================================
+                                collection-section styles 
+=============================================================================================*/
+.collection-section {
+    width: 1047px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.collection-section h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.collection-mother {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.collections {
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.collections .collection-thumbnail img {
+    width: 100%;
+}
+
+.collections .collection-detail h4 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.collections .collection-detail h6 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    font-size: 14px;
+    color: #FB8200;
+}
+
+.collections .collection-detail span,
+p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*=========================================================================================                                         semore-btn section start 
+=========================================================================================*/
+.semore-btn {
+    width: 99px;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    right: -1094px;
+    top: 16px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn .fa-arrow-right-long {
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*=========================================================================================
+                                    feature section start 
+ =========================================================================================*/
+.feature {
+    margin-top: 100px;
+}
+
+.feature-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1110px;
+    align-items: center;
+}
+
+.feature-products .feature-image img {
+    width: 100%;
+}
+
+.feature-products .feature-info {
+    margin-left: 96px;
+}
+
+.feature-products .feature-info p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.feature-products .feature-info a {
+    padding: 22px 67px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.feature-products .feature-info .fa-arrow-right-long {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 10px;
 }
